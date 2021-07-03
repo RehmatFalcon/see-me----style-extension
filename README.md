@@ -1,5 +1,5 @@
-# yt-speed-controller
-Youtube speed controller
+# See Me -- Style extension
+Simple extension for style manipulation
 
 ## Installation
 
