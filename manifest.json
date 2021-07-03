@@ -1,0 +1,32 @@
+{
+    "name": "See Me",
+    "version": "1.0",
+    "description": "Change styles on the fly",
+    "manifest_version": 2,
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": false
+    },
+    "permissions": [
+        "webNavigation",
+        "activeTab",
+        "tabs",
+        "http://*/",
+        "https://*/",
+        "storage"
+    ],
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "images/icon-16.png",
+            "32": "images/icon-32.png"
+        }
+    },
+    "applications": {
+        "gecko": {
+            "id": "yt-speed-controller@thecoffeecoders.com"
+        }
+    }
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>See Me</title>
+</head>
+
+<body>
+    <h5 class="title-text">
+        See Me
+    </h5>
+    <form id="set-form">
+        <input type="url" class="w-full" id="site-url" placeholder="Site URL" required>
+        <textarea class="w-full" rows="5" id="site-css" placeholder="CSS"></textarea>
+        <button id="set-style" type="submit">
+            Set
+        </button>
+        <button id="load-style" type="button">
+            Load
+        </button>
+    </form>
+    <div style="text-align: center; font-size: 1.1em;">
+        Made with <span style="color:deeppink">❤</span><br/>
+        <a target="_blank" href="https://thecoffeecoders.com" style="text-decoration: none; color:cadetblue; font-size: 1.2em;">The Coffee Coders</a>
+    </div>
+    <style>
+        body {
+            width: 600px;
+            padding: 10px;
+        }
+
+        .w-full {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        .title-text {
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+    </style>
+    <script src="popup.js">
+    </script>
+</body>
+
+</html>
